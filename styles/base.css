@@ -105,9 +105,14 @@ footer p {
     margin: 0.5rem 0;
 }
 
+.resources {
+    align-self: start;
+    max-height: 300px;
+}
+
 @media (min-width: 768px) {
     main {
-        grid-template-columns: 5fr 2fr;
+        grid-template-columns: 3fr 2fr;
         grid-template-rows: auto 1fr;
     }
 

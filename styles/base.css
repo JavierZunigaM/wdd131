@@ -107,7 +107,7 @@ footer p {
 
 @media (min-width: 768px) {
     main {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 5fr 2fr;
         grid-template-rows: auto 1fr;
     }
 

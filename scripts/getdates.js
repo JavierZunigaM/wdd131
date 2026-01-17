@@ -3,4 +3,4 @@ const currentYear = new Date().getFullYear();
 document.getElementById("currentyear").textContent = currentYear;
 
 // Get and display the last modified date
-document.getElementById("lastModified").textContent = `Last Modified: ${document.lastModified}`;
+document.getElementById("lastModified").innerHTML = document.lastModified;

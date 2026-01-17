@@ -75,9 +75,17 @@ h1 {
 
 .card h2 {
     font-family: 'Roboto', sans-serif;
-    color: #1a252f;
-    margin-bottom: 1rem;
+    background-color: #1a252f;
+    color: white;
+    padding: 10px;
+    margin: -2rem -2rem 1rem -2rem;
     font-size: 1.8rem;
+}
+
+.card h3 {
+    border-bottom: 2px solid #1a252f;
+    padding-bottom: 5px;
+    margin-top: 30px;
 }
 
 .card img {

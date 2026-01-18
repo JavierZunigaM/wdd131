@@ -68,7 +68,7 @@ h1 {
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align: left;
 }
 
 .card h2 {
@@ -78,12 +78,14 @@ h1 {
     padding: 10px;
     margin: -2rem -2rem 1rem -2rem;
     font-size: 1.8rem;
+    text-align: center;
 }
 
 .card h3 {
     border-bottom: 2px solid #1a252f;
     padding-bottom: 5px;
     margin-top: 30px;
+    text-align: center;
 }
 
 .card img {
@@ -107,6 +109,7 @@ h1 {
     font-size: 1.1rem;
     line-height: 1.7;
     color: #495057;
+    text-align: justify;
 }
 
 footer {

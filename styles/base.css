@@ -90,19 +90,19 @@ h1 {
 
 .card img {
     border-radius: 8px;
-    margin: 1rem 0;
+    margin: 3rem 0;
     max-width: 100%;
-    height: auto;
+    height: center;
 }
 
 .card img.img-right {
     float: right;
-    margin: 0 0 20px 20px;
+    margin: 110px 10px 110px 20px;
 }
 
 .card img.img-left {
     float: left;
-    margin: 0 20px 20px 0;
+    margin: 110px 20px 375px 10px;
 }
 
 .card p {

@@ -48,16 +48,18 @@ nav a:hover {
 /* Main layout: two columns */
 main {
     display: grid;
-    grid-template-columns: 3fr 1fr; /* left wider, right narrower */
+    grid-template-columns: 4fr 1fr; /* left wider, right narrower */
     gap: 0rem;
-    padding: 0rem;
-    
-    
+   
+   
 }
 
 .main-content {
     background: #787878;
-    padding: 0rem;
+    padding: 1rem;
+    width: 100%;
+    height: 43rem;
+    box-sizing: border-box; /* ensure padding doesn't affect width */
     
     
 }
@@ -65,8 +67,11 @@ main {
 aside {
     background: #fff;
     border: 1px solid #ddd;
-    padding: 0rem;
+    padding: 1rem;
+    width: 100%;
+    height: 43rem;
     margin: 0; /* remove default margin that creates extra space */
+    box-sizing: border-box; /* ensure padding doesn't affect width */
 }
 
 /* Footer */

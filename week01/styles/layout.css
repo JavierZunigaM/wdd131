@@ -1,0 +1,84 @@
+/* Grid layout on body */
+body {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    min-height: 0vh;
+    min-width: 0vw;
+    margin: 5px;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 0.05rem 0.05rem;
+    text-align: left;
+   
+}
+
+header h1 {
+    margin: 0; /* remove default margin that creates extra space */
+    font-size: 1.25rem; /* reduce header text size */
+    padding: 3rem;
+}
+
+nav {
+    
+    background: #000;
+    display: flex;
+    justify-content: center;
+    gap: 15rem; /* more space between links */
+    padding: 1.5rem;
+  
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+    
+}
+
+nav a:hover {
+ 
+  color: #1100ff;
+    
+}
+
+/* Main layout: two columns */
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr; /* left wider, right narrower */
+    gap: 0rem;
+    padding: 0rem;
+    
+    
+}
+
+.main-content {
+    background: #787878;
+    padding: 0rem;
+    
+    
+}
+
+aside {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 0rem;
+    margin: 0; /* remove default margin that creates extra space */
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 5rem;
+  
+}
+
+footer p {
+  margin: 0; /* remove default margin that creates extra space */
+  line-height: 2; /* adjust line height for better readability */
+}

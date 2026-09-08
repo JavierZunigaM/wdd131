@@ -4,10 +4,9 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #f6f1f1;
     color: #333;
-    min-width: 90vw; min-height: 90vh;
-    max-width: 100vw; max-height: 10vh;
     display: grid;
     grid-template-rows: auto 1fr auto; /* header, main, footer */    
+    
 }
 
 /* Header */

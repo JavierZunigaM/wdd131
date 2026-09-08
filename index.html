@@ -1,48 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 – Dynamic Web Fundamentals – Javier Zuniga Mendoza</title>
-    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals | Javier Zuniga Mendoza | Course landind page with HTML, CSS, and JavaScript">  
+    <title>WDD 131 | Dynamic Web Fundamentals | Javier Zuniga Mendoza</title>
+    <meta name="description" content="WDD 131 | Dynamic Web Fundamentals | Javier Zuniga Mendoza | Course landing page about myself with HTML, CSS, and JavaScript.">
     <meta name="author" content="Javier Zuniga Mendoza">
     <link rel="stylesheet" href="styles/base.css">
-    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/getdatesjs" defer></script>
 </head>
 
 <body>
     <header>
-        <span id="course-title">
-            WDD 131 – Dynamic Web Fundamentals
-        </span>
+        <span id="course-title">WDD 131 | Dynamic Web Fundamentals</span>
+        
         <nav>
             <a href="https://www.linkedin.com/in/javierzunigamendoza/">LinkedIn</a>
             <a href="https://byupw.instructure.com/">Canvas</a>
-            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng">Scripture</a>
-            <a href="final-project>Final Project</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/ot/prov/22?lang=eng&id=p6#p6">Scripture</a>
+            <a href="#">Final Project</a>
         </nav>
-
+        
     </header>
-
+    
     <main>
-        <h1>Javier Zuniga Mendoza</|h1>
+        <h1>Javier Zuniga Mendoza</h1>
         <section class="card">
-            <h2>About Me</h2>
-            <img src="" alt="Profile picture">
-            <p>I am from Costa Rica, a tropical country in Central America. I am currently a student at Brigham Young University, Idaho, pursuing a degree in Web Development. I have a passion for creating dynamic and interactive web applications that provide users with an engaging experience. In my free time, I enjoy exploring new technologies, learning about different cultures, and spending time with my family and friends. I also like to do sport, mainly playing soccer.</p>
+            <h2>About me.</h2>
+            <div class="content-with-image">
+                <p>My name is Javier Zuniga Mendoza. I am a student at Brigham Young University-Idaho, studying Web Development. I am currently working on my degree in Web Development and looking forward to a career in the field. I am from Costa Rica and I am a member of the Church of Jesus Christ of Latter-day Saints. I am a father of 2 beautiful children, one is a Young Women and the other one will be a Young Man next year.</p>
+                <img src="images/javier.jpg" alt="Photo abount me" width="200" height="200">
+            </div>
+            <h3>Costa Rica.</h3>
+            <div class="content-with-image">
+                <p>Costa Rica is a country in Central America known for its biodiversity and eco-tourism. It is a tropical country where we have the opportunity to visit the Pacific Coast and the Caribbean Coast. We have some very beautifil mountains, beaches and Volcanoes.</p>
+                <img src="images/costarica.jpg" alt="Costarican Flag" width="200" height="200">
+            </div>
         </section>
+
         <section class="card">
-            <h2>My Goals</h2>
-            <img src="images/goals.jpg" alt="Goals image">
-            <p>My goal is to become a proficient web developer, capable of creating innovative and user-friendly web applications. I aim to continuously improve my skills and stay up-to-date with the latest trends and technologies in the field. Ultimately, I hope to contribute to the development of impactful web solutions that enhance people's lives and make a positive difference in the world.</p> 
+            <h4>Web Dev Resources.</h4>
+            <ul>
+                <li><a href="https://dev.to" target="_blank">Dev. to Community</a></li>
+                <li><a href="https://www.smashingmagazine.com/" target="_blank">Smashing Magazine</a></li>
+                <li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
+                <li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
+                <li><a href="https://picsum.photos/" target="_blank">Lorem Picsum</a></li>
+                <li><a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a></li>
+            </ul>
         </section>
+
     </main>
 
     <footer>
-        <p>&copy; <span id="currentyear"></span> Javier | Costa Rica</p>
+        <p>
+            &copy; <span id="currentyear"></span> Javier Zuniga Mendoza | Costa Rica.
+        </p>
         <p id="lastModified"></p>
     </footer>
-
 </body>
 </html>
